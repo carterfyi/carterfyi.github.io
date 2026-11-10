@@ -33,13 +33,14 @@ main > * {
 }
 
 .cornerfish {
+  /* outline: 1px solid magenta; */
   right: 0;
   bottom: 0;
   position: absolute;
   stroke: white;
-  max-height: 10vh;
-  max-width: 10vw;
-  min-width: 50px;
+  /* max-height: 10vh; */
+  /* max-width: 10vw; */
+  /* min-width: 50px; */
 }
 
 /*

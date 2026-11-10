@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>carter.fyi</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- CDN Things -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400;500;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400;500;700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
   <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <main>
-        <h1 class="title">carter.fyi</h1>
-        <br>
-        <h2 class="subtitle">A Work in Progress.</h2>
-        <br>
 
-        <img src="/img/cornerfish_v3-plain.svg" class="cornerfish">
-    </main>
-    <!--A creation of love, of earnestness, and of curiosity from one human being in the Beautiful Pacific Northwest.-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js" integrity="sha512-oJ8QbaQThQoJZ7oEv+29jfPM6CcP+zUxh3PKJs1vyOhx0UraUrE7PQgeItu3dOuCJyrzWpoYMsVjkkPEBzbUqw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="index.js"></script>
+<body>
+  <main>
+    <h1 id="title" class="title">carter.fyi</h1>
+    <br>
+    <h2 id="subtitle" class="subtitle">A Work in Progress.</h2>
+    <br>
+
+    <svg width="90" height="120" viewBox="0 0 75 100" version="1.1" id="cfish" xmlns="http://www.w3.org/2000/svg"
+      class="cornerfish">
+      <g id="cfish-g" transform="matrix(0.99807579,0,0,0.99874032,-18.94045,-4.3987327)">
+        <path id="cfish-path_c"
+          style="display:inline;fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+          d="M 80.304754,29.664901 C 80.304754,12.075124 59.170542,1.4288791 43.232916,7.1555096 27.301597,12.646612 17.767727,28.581204 20.68923,44.834274 23.612934,61.246477 37.982014,74.681318 55.256215,74.492569 H 79.092641" />
+        <path id="cfish-path_f"
+          style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+          d="M 55.032858,50.032858 H 92.921818 M 55.032858,50.032858 V 103.33027" />
+        <path id="cfish-path_grin"
+          style="fill:none;fill-opacity:1;stroke:#FFFFFF;stroke-width:1.25;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+          d="M 647.64245,405.10631 C 649.08161,405.6102 650.52072,406.11406 651.82572,406.21728 653.13071,406.3205 654.30146,406.02305 655.47224,405.7256"
+          transform="matrix(1.4808779,-0.35677063,1.0416216,2.1644379,-1358.4297,-594.49358)" />
+        <path id="cfish-path_eye" style="fill:#FFFFFF"
+          transform="matrix(0.70719711,0.70701644,-0.70719711,0.70701644,0,0)"
+          d="M 62.602334,-10.302269 A 3.6384892,6.0641489 0 0 1 58.963844,-4.2381201 3.6384892,6.0641489 0 0 1 55.325355,-10.302269 3.6384892,6.0641489 0 0 1 58.963844,-16.366418 3.6384892,6.0641489 0 0 1 62.602334,-10.302269 Z" />
+
+      </g>
+    </svg>
+  </main>
+  <!--A creation of love, of earnestness, and of curiosity from one human being in the Beautiful Pacific Northwest.-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.1/gsap.min.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </body>
+
 </html>
